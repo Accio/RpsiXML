@@ -1,0 +1,35 @@
+    1  ls /opt/RpsiXML/
+    2  cd /opt/RpsiXML/
+    3  make
+    4  R
+    5  [200~apt-get update &&
+    6  apt-get update && apt-get install -y libcurl4-openssl-dev libssl-dev libssh2-1-dev libxml2-dev
+    7  historz
+    8  history
+    9  R
+   10  less Makefile 
+   11  vim Makefile 
+   12  export R=RD
+   13  make test
+   14  R
+   15  R -e "install.packages(c('devtools', 'testthat'))@
+   16  R -e "install.packages(c('devtools', 'testthat', 'roxygen2'))"
+   17  make test
+   18  make test
+   19  make check
+   20  R -e "BiocManager::install(c('psiStats'))"
+   21  R
+   22  RD
+   23  make check
+   24  RD
+   25  R
+   26  RD
+   27  sudo apt-get install git
+   28  apt-get install git
+   29  RD
+   30  R
+   31  apt install qpdf
+   32  ls
+   33  history
+   34  history > Docker-history
+sudo docker run -v /home/david/projects/RpsiXML:/opt/RpsiXML -it rocker/r-devel /bin/bash

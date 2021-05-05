@@ -7,5 +7,6 @@ README.md
 ^\.travis\.yml$
 ^Makefile$
 ^Dockerfile$
+docker-history
 ^coverage\.txt$
 ^coverage\.r$
